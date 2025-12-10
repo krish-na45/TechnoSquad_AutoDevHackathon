@@ -23,16 +23,14 @@ This is agent-based execution, which is the correct modern approach.
  Architecture Overview (Explain Like This)
 
 User Requirement
-      ↓
 Input Normalization
-      ↓
 Agent Orchestrator (Synapse Engine)
-      ↓
-------------------------------------------------
-|  Planner Agent        |  Meta Refiner Agent  |
-|  DB Architect Agent   |  Backend Coder Agent |
-|  Frontend Coder Agent |  Legacy Agent        |
-|  Sentinel Agent       |  Deployment Agent    |
-------------------------------------------------
-      ↓
+# Planner Agent         
+  DB Architect Agent      
+  Frontend Coder Agent          
+  Sentinel Agent 
+  Meta Refiner Agent
+  Backend Coder Agent
+  Legacy Agent
+  Deployment Agent    
 Validated Full-Stack Output
