@@ -26,12 +26,13 @@ User Requirement
 Input Normalization
 Agent Orchestrator (Synapse Engine)
 
-Planner Agent         
+Planner Agent
  DB Architect Agent      
  Frontend Coder Agent          
  Sentinel Agent 
  Meta Refiner Agent
  Backend Coder Agent
  Legacy Agent
- Deployment Agent    
+ Deployment Agent
+ 
 Validated Full-Stack Output
