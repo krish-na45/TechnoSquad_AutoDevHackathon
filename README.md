@@ -1,22 +1,35 @@
+# Auto Dev–Synapse Platform
 
-# Auto Dev‑Synapse – Round 2 Prototype
+## Overview
+Auto Dev–Synapse is a multi-agent DevOps copilot that transforms natural-language software requirements into validated full-stack applications using agent orchestration.
 
-This folder contains a self‑contained prototype that demonstrates the Auto Dev‑Synapse Platform as described in the abstract.
+## Architecture
+[Explain orchestrator + agents]
 
-- Multi‑agent orchestration using a LangGraph StateGraph.
-- Azure DevOps style user story ingestion.
-- Meta‑refinement of requirements.
-- Automatic generation of FastAPI backend, PostgreSQL table schema and React frontend component.
-- Legacy‑safe integration suggestions.
-- Automated testing via The Sentinel agent with a retry loop.
-- Deployment engine summary.
+## Features
+- Multi-agent orchestration
+- Deterministic execution pipeline
+- Backend & frontend generation
+- Schema design
+- Validation and deployment readiness
 
-## How to run
+## Tech Stack
+Frontend: React  
+Backend: FastAPI  
+Agents: Modular Python services  
+UI: Tailwind / Custom UI
 
-1. Install dependencies:
+## How It Works
+1. User submits requirement
+2. Synapse Orchestrator activates agents
+3. Agents collaborate to generate artifacts
+4. Sentinel validates outputs
+5. Final system is returned
 
-   pip install -r requirements.txt
+## Running Locally
+[Steps]
 
-2. Start the UI:
-
-   streamlit run app.py
+## Future Enhancements
+- Real cloud connectors
+- Parallel agent execution
+- Persistent workspace history
